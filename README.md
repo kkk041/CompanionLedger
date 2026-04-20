@@ -23,16 +23,16 @@
 
 ## 🛠️ 技术栈
 
-| 类别 | 技术 |
-|------|------|
-| 桌面框架 | Electron 32 |
-| 前端框架 | React 18 |
-| UI 组件库 | Ant Design 5 |
-| 构建工具 | Vite 6 |
-| 路由 | React Router 6 |
-| 图表 | @ant-design/charts |
-| 数据存储 | 本地 JSON 文件（`%APPDATA%/companion-finance/data/`） |
-| 打包工具 | electron-builder |
+| 类别      | 技术                                                  |
+| --------- | ----------------------------------------------------- |
+| 桌面框架  | Electron 32                                           |
+| 前端框架  | React 18                                              |
+| UI 组件库 | Ant Design 5                                          |
+| 构建工具  | Vite 6                                                |
+| 路由      | React Router 6                                        |
+| 图表      | @ant-design/charts                                    |
+| 数据存储  | 本地 JSON 文件（`%APPDATA%/companion-finance/data/`） |
+| 打包工具  | electron-builder                                      |
 
 ## 📦 安装使用
 
@@ -117,17 +117,20 @@ npx electron-builder --win
 ## 🔄 更新日志
 
 ### v1.2.0 (2026-04-19)
+
 - 新增报单模板功能，结算后一键复制
 - 新增更新日志页面
 - 优化接单页面布局
 - 系统托盘支持右键退出
 
 ### v1.1.0 (2026-04-17)
+
 - 支持按把计费模式
 - 历史账单增加计费方式筛选
 - 暗色/少女主题优化
 
 ### v1.0.0 (2026-04-15)
+
 - 首个正式版本
 - 接单计时 + 自动结算
 - 今日数据、收入走势、历史账单
