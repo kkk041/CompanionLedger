@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>陪玩店管理</title>
+    <style>
+      /* 全局滚动条 - 使用 * 确保匹配所有元素 */
+      *,
+      *::before,
+      *::after {
+        scrollbar-width: thin;
+        scrollbar-color: rgba(22, 119, 255, 0.25) rgba(0, 0, 0, 0.04);
+      }
+      *::-webkit-scrollbar {
+        width: 8px !important;
+        height: 8px !important;
+      }
+      *::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0.04) !important;
+        border-radius: 4px !important;
+      }
+      *::-webkit-scrollbar-thumb {
+        background: rgba(22, 119, 255, 0.25) !important;
+        border-radius: 4px !important;
+      }
+      *::-webkit-scrollbar-thumb:hover {
+        background: rgba(22, 119, 255, 0.45) !important;
+      }
+      *::-webkit-scrollbar-corner {
+        background: transparent !important;
+      }
+      *::-webkit-scrollbar-button {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+      }
+
+      .theme-dark *,
+      .theme-dark *::before,
+      .theme-dark *::after {
+        scrollbar-color: rgba(22, 104, 220, 0.35) rgba(255, 255, 255, 0.04);
+      }
+      .theme-dark *::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.04) !important;
+      }
+      .theme-dark *::-webkit-scrollbar-thumb {
+        background: rgba(22, 104, 220, 0.35) !important;
+      }
+      .theme-dark *::-webkit-scrollbar-thumb:hover {
+        background: rgba(22, 104, 220, 0.55) !important;
+      }
+
+      .theme-pink *,
+      .theme-pink *::before,
+      .theme-pink *::after {
+        scrollbar-color: rgba(235, 47, 150, 0.25) rgba(235, 47, 150, 0.06);
+      }
+      .theme-pink *::-webkit-scrollbar-track {
+        background: rgba(235, 47, 150, 0.06) !important;
+      }
+      .theme-pink *::-webkit-scrollbar-thumb {
+        background: rgba(235, 47, 150, 0.25) !important;
+      }
+      .theme-pink *::-webkit-scrollbar-thumb:hover {
+        background: rgba(235, 47, 150, 0.45) !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
