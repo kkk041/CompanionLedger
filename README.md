@@ -44,8 +44,8 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/kkk041/--.git
-cd --
+git clone https://github.com/kkk041/CompanionLedger.git
+cd CompanionLedger
 
 # 安装依赖
 npm install
