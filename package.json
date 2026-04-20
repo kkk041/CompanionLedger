@@ -1,7 +1,21 @@
 {
   "name": "companion-finance",
-  "version": "1.0.0",
-  "description": "陪玩财务管理系统",
+  "version": "1.2.0",
+  "description": "陪玩财务管理系统 - 专为陪玩工作室打造的桌面端财务管理工具",
+  "author": "kkk041",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kkk041/--.git"
+  },
+  "homepage": "https://github.com/kkk041/--#readme",
+  "keywords": [
+    "陪玩",
+    "财务管理",
+    "electron",
+    "react",
+    "desktop-app"
+  ],
   "main": "electron/main.js",
   "scripts": {
     "dev": "vite",

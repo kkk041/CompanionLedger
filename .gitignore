@@ -5,3 +5,17 @@ dist-electron
 *.log
 package-lock.json
 *.tgz
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Build cache
+*.exe
+
+# Misc
+kkk.jpg.jpg
